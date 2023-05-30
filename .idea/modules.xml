@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ionic-app-api.iml" filepath="$PROJECT_DIR$/.idea/modules/ionic-app-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/ionic-app-api-build.iml" filepath="$PROJECT_DIR$/.idea/modules/ionic-app-api-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/timelapse-api.iml" filepath="$PROJECT_DIR$/.idea/modules/timelapse-api.iml" />
     </modules>
   </component>
 </project>

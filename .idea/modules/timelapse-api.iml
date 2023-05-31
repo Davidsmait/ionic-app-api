@@ -7,6 +7,10 @@
     <content url="file://$MODULE_DIR$/../../api">
       <sourceFolder url="file://$MODULE_DIR$/../../api/src/main/scala" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/../../api/target" />
+      <excludeFolder url="file://$MODULE_DIR$/../../api/target/global-logging" />
+      <excludeFolder url="file://$MODULE_DIR$/../../api/target/scala-2.12" />
+      <excludeFolder url="file://$MODULE_DIR$/../../api/target/streams" />
+      <excludeFolder url="file://$MODULE_DIR$/../../api/target/task-temp-directory" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

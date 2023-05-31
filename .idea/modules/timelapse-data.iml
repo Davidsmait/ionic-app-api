@@ -6,6 +6,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../data">
       <excludeFolder url="file://$MODULE_DIR$/../../data/target" />
+      <excludeFolder url="file://$MODULE_DIR$/../../data/target/streams" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

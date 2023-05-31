@@ -1,6 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ScalaCompilerConfiguration">
-    <profile name="sbt 1" modules="api,api.timelapse-api,business,data.timelapse-data,ionic-app-api,timelapse-api,timelapse-app,timelapse-business,timelapse-data" />
+    <profile name="sbt 1" modules="api,api.timelapse-api,business,data.timelapse-data,ionic-app-api" />
+    <profile name="sbt 2" modules="timelapse-api">
+      <parameters>
+        <parameter value="-Wunused" />
+        <parameter value="-Wdead-code" />
+        <parameter value="-Xlint" />
+        <parameter value="-Yrangepos" />
+        <parameter value="-P:semanticdb:targetroot:/Users/qrsof/Documents/davidsn/rep/ionic-app-api/api/target/scala-2.13/meta" />
+      </parameters>
+      <plugins>
+        <plugin path="$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalameta/semanticdb-scalac_2.13.10/4.6.0/semanticdb-scalac_2.13.10-4.6.0.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 3" modules="timelapse-business">
+      <parameters>
+        <parameter value="-Wunused" />
+        <parameter value="-Wdead-code" />
+        <parameter value="-Xlint" />
+        <parameter value="-Yrangepos" />
+        <parameter value="-P:semanticdb:targetroot:/Users/qrsof/Documents/davidsn/rep/ionic-app-api/business/target/scala-2.13/meta" />
+      </parameters>
+      <plugins>
+        <plugin path="$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalameta/semanticdb-scalac_2.13.10/4.6.0/semanticdb-scalac_2.13.10-4.6.0.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 4" modules="timelapse-data">
+      <parameters>
+        <parameter value="-Wunused" />
+        <parameter value="-Wdead-code" />
+        <parameter value="-Xlint" />
+        <parameter value="-Yrangepos" />
+        <parameter value="-P:semanticdb:targetroot:/Users/qrsof/Documents/davidsn/rep/ionic-app-api/data/target/scala-2.13/meta" />
+      </parameters>
+      <plugins>
+        <plugin path="$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalameta/semanticdb-scalac_2.13.10/4.6.0/semanticdb-scalac_2.13.10-4.6.0.jar" />
+      </plugins>
+    </profile>
+    <profile name="sbt 5" modules="timelapse-app">
+      <parameters>
+        <parameter value="-Wunused" />
+        <parameter value="-Wdead-code" />
+        <parameter value="-Xlint" />
+        <parameter value="-Yrangepos" />
+        <parameter value="-P:semanticdb:targetroot:/Users/qrsof/Documents/davidsn/rep/ionic-app-api/target/scala-2.13/meta" />
+      </parameters>
+      <plugins>
+        <plugin path="$USER_HOME$/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalameta/semanticdb-scalac_2.13.10/4.6.0/semanticdb-scalac_2.13.10-4.6.0.jar" />
+      </plugins>
+    </profile>
   </component>
 </project>

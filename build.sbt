@@ -11,9 +11,19 @@ lazy val api = (project in file("api"))
 
   )
 
+lazy val business = (project.in(file("business")))
+  .settings(
+    name := "timelapse-business"
+  )
+
+lazy val data = (project in file("data"))
+  .settings(
+    name := "timelapse-data"
+  )
+
 lazy val root = (project in file("."))
   .settings(
-    name := "ionic-app-api"
+    name := "timelapse-app"
   )
-  .dependsOn(api)
-  .aggregate(api)
+  .dependsOn(api, business, data)
+  .aggregate(api, business, data)

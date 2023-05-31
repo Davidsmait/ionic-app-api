@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ionic-app-api.iml" filepath="$PROJECT_DIR$/.idea/modules/ionic-app-api.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ionic-app-api-build.iml" filepath="$PROJECT_DIR$/.idea/modules/ionic-app-api-build.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/timelapse-api.iml" filepath="$PROJECT_DIR$/.idea/modules/timelapse-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/timelapse-app.iml" filepath="$PROJECT_DIR$/.idea/modules/timelapse-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/timelapse-app-build.iml" filepath="$PROJECT_DIR$/.idea/modules/timelapse-app-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/timelapse-business.iml" filepath="$PROJECT_DIR$/.idea/modules/timelapse-business.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/timelapse-data.iml" filepath="$PROJECT_DIR$/.idea/modules/timelapse-data.iml" />
     </modules>
   </component>
 </project>

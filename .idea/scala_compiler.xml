@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ScalaCompilerConfiguration">
-    <profile name="sbt 1" modules="api,api.timelapse-api,business,ionic-app-api" />
+    <profile name="sbt 1" modules="api,api.timelapse-api,business,data.timelapse-data,ionic-app-api,timelapse-api,timelapse-app,timelapse-business,timelapse-data" />
   </component>
 </project>

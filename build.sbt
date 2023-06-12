@@ -12,12 +12,13 @@ lazy val commonSettings = Seq(
     "-Wdead-code",
     "-Xlint"
   ),
-
+  libraryDependencies ++= commonDependencies
 )
 
-//lazy val commonDependencies = Seq(
-//  "com.qrsof.authentiline" %% "authentiline-client" % "1.0.0-SNAPSHOT",
-//)
+lazy val commonDependencies = Seq(
+  "javax.inject" % "javax.inject" % "1",
+  "net.codingwell" %% "scala-guice" % "5.1.1"
+)
 
 lazy val api = (project in file("api"))
   .settings(
